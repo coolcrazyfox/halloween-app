@@ -7,6 +7,7 @@ const MainPage = () => {
             <div className={s.site_header}>
                 {/*<h1>Halooween</h1>*/}
                 <div className={s.spider }></div>
+                <div className={s.spider_second }></div>
                 <div className={s.pumpkin}></div>
                 <div className={s.ghost}></div>
                 <div className={s.ghost1}></div>
