@@ -1,10 +1,26 @@
 {
   "files": {
-    "main.js": "/halloween-app/static/js/main.a312c48f.js",
+    "main.css": "/halloween-app/static/css/main.c735d5ef.css",
+    "main.js": "/halloween-app/static/js/main.ca123d8a.js",
+    "static/js/845.8c8ec5b2.chunk.js": "/halloween-app/static/js/845.8c8ec5b2.chunk.js",
+    "static/media/pumpkin.png": "/halloween-app/static/media/pumpkin.b6cb5d64d221e41aa11b.png",
+    "static/media/three.mp3": "/halloween-app/static/media/three.6e7cc4b2b620746bdd72.mp3",
+    "static/media/halloween_is_coming_.mp3": "/halloween-app/static/media/halloween_is_coming_.1bef934093d3d0e75c01.mp3",
+    "static/media/monsters.mp3": "/halloween-app/static/media/monsters.32b1f264367f36081cde.mp3",
+    "static/media/halloween_night.mp3": "/halloween-app/static/media/halloween_night.1dfa5a6067219a42339a.mp3",
+    "static/media/second.mp3": "/halloween-app/static/media/second.7dfa8632923adf8206f4.mp3",
+    "static/media/ghost.png": "/halloween-app/static/media/ghost.fbe5eb869ef9aee14a55.png",
+    "static/media/first.mp3": "/halloween-app/static/media/first.cd57d81185e7d726ba47.mp3",
+    "static/media/ghost1.png": "/halloween-app/static/media/ghost1.786465f15b380da703ca.png",
+    "static/media/main_img.jpg": "/halloween-app/static/media/main_img.fa4295c4baca636eb1a6.jpg",
+    "static/media/coffin-halloween-costume.png": "/halloween-app/static/media/coffin-halloween-costume.950ec5669b244dabe611.png",
     "index.html": "/halloween-app/index.html",
-    "main.a312c48f.js.map": "/halloween-app/static/js/main.a312c48f.js.map"
+    "main.c735d5ef.css.map": "/halloween-app/static/css/main.c735d5ef.css.map",
+    "main.ca123d8a.js.map": "/halloween-app/static/js/main.ca123d8a.js.map",
+    "845.8c8ec5b2.chunk.js.map": "/halloween-app/static/js/845.8c8ec5b2.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a312c48f.js"
+    "static/css/main.c735d5ef.css",
+    "static/js/main.ca123d8a.js"
   ]
 }
