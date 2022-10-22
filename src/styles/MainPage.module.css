@@ -175,33 +175,51 @@
 @keyframes header-animation-pumpkin {
     0%{
         left: -300%;
+        transform: rotate(-22deg);
     }
     10%{
         left: -60px;
+        /*transform: rotate(10deg);*/
     }
     20%{
         left: 0px;
+        transform: rotate(15deg);
+    }
+    25%{
+        left: -5px;
+        transform: rotate(-5deg);
     }
     30%{
         left: 50px;
+        transform: rotate(10deg);
     }
     40%{
         left: -20px;
+        transform: rotate(-10deg);
     }
     50%{
-        left: 50px;
+        left: 150px;
+        transform: rotate(12deg);
     }
     60%{
         left: -28px;
+        transform: rotate(-10deg);
     }
     70%{
         left: 40px;
+        transform: rotate(12deg);
     }
     80%{
         left: 0px;
+        transform: rotate(-10deg);
     }
     90%{
         left: 200px;
+        transform: rotate(12deg);
+    }
+    95%{
+        left: 200px;
+        transform: rotate(-12deg);
     }
     100% {
         left: 20px;
