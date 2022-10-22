@@ -161,7 +161,7 @@
     bottom: 4px;
     cursor: pointer;
     animation-name: header-animation-pumpkin;
-    animation-duration: 75s;
+    animation-duration: 85s;
     animation-fill-mode: forwards;
 }
 
@@ -228,8 +228,8 @@
 
 .ghost {
     overflow: hidden;
-    border-radius: 50%;
-    width: 280px;
+    border-radius: 25px;
+    width: 380px;
     height: 280px;
     position: absolute;
     background-image: url('../assets/ghost.png');
@@ -255,6 +255,7 @@
 @keyframes header-animation-ghost {
     0%{
         right: -300px;
+        bottom: 459px;
     }
     10%{
         right: -50px;
@@ -320,7 +321,7 @@
 
 .second_ghost {
     overflow: hidden;
-    border-radius: 50%;
+    border-radius: 25px;
     width: 330px;
     height: 330px;
     position: absolute;
@@ -401,5 +402,97 @@
     }
     100% {
         left: 1660px;
+    }
+}
+.coffin{
+    overflow: hidden;
+    /*border-radius: 50%;*/
+    width: 330px;
+    height: 330px;
+    position: absolute;
+    background-image: url('../assets/coffin-halloween-costume.png');
+    background-position-y: 70%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0px;
+    bottom: 14px;
+    cursor: pointer;
+    animation-name: header-animation-coffin;
+    animation-duration: 105s;
+    animation-fill-mode: forwards;
+}
+@keyframes header-animation-coffin {
+    0%{
+        right: -350px;
+    }
+    10%{
+        right: -150px;
+       transform: rotate(-30deg);
+    }
+    15%{
+        bottom: 25px;
+        transform: rotate(-25deg);
+    }
+    20%{
+        bottom: 60px;
+        transform: rotate(-10deg);
+    }
+    22%{
+        bottom:20px;
+        transform: rotate(-20deg);
+    }
+    25%{
+        right: -240px;
+        transform: rotate(0deg);
+    }
+    30%{
+        bottom:10px;
+        transform: rotate(-30deg);
+    }
+    35%{
+        right: -120px;
+        transform: rotate(-20deg);
+    }
+    40%{
+        bottom:60px;
+        transform: rotate(-40deg);
+    }
+    45%{
+        right: -190px;
+        transform: rotate(-20deg);
+    }
+    50%{
+        bottom:20px;
+        transform: rotate(-10deg);
+    }
+    55%{
+        right: -220px;
+        transform: rotate(-30deg);
+    }
+
+    60%{
+        right: -170px;
+        transform: rotate(-20deg);
+    }
+    70%{
+        bottom:80px;
+        transform: rotate(-10deg);
+    }
+    80%{
+        right: -200px;
+        transform: rotate(-30deg);
+    }
+    85%{
+        bottom:40px;
+        transform: rotate(0deg);
+    }
+
+    90% {
+        bottom: 10px;
+        transform: rotate(-20deg);
+    }
+    100% {
+        right: -350px;
+
     }
 }
