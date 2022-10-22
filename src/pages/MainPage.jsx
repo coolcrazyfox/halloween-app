@@ -1,17 +1,23 @@
 import React from 'react';
 import s from  '../styles/MainPage.module.css'
+import Spider from "../components/Spider";
+import SecondSpider from "../components/SpiderSecond";
+import Pumpkin from "../components/Pumpkin";
+import Ghost from "../components/Ghost";
+import SecondGhost from "../components/SecondGhost";
+
 
 const MainPage = () => {
+
+
     return (
         <div className={s.container}>
             <div className={s.site_header}>
-                {/*<h1>Halooween</h1>*/}
-                <div className={s.spider }></div>
-                <div className={s.spider_second }></div>
-                <div className={s.pumpkin}></div>
-                <div className={s.ghost}></div>
-                <div className={s.ghost1}></div>
-
+                <Spider/>
+                <SecondSpider/>
+                <Pumpkin/>
+                <Ghost/>
+                <SecondGhost/>
             </div>
 
         </div>

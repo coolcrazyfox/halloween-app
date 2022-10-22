@@ -61,7 +61,9 @@
 }
 
 .spider {
-
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    border-radius: 50%;
     width: 95px;/*95*/
     height: 200px;/*200*/
     position: absolute;
@@ -78,12 +80,6 @@
     animation-fill-mode: forwards;
 }
 
-/*.spider-animation {*/
-/*    animation-name: header-animation-spider;*/
-/*    animation-duration: 15s;*/
-/*    animation-fill-mode: forwards;*/
-
-/*}*/
 
 @keyframes header-animation-spider {
     0%{
@@ -102,7 +98,9 @@
         top: -80px;
     }
 }
-.spider_second{
+.second_spider{
+    overflow: hidden;
+    border-radius: 50%;
     width: 105px;/*95*/
     height: 220px;/*200*/
     position: absolute;
@@ -151,6 +149,7 @@
 
 .pumpkin {
     overflow: hidden;
+    border-radius: 50%;
     width: 450px;
     height: 450px;
     position: absolute;
@@ -211,6 +210,7 @@
 
 .ghost {
     overflow: hidden;
+    border-radius: 50%;
     width: 280px;
     height: 280px;
     position: absolute;
@@ -300,8 +300,9 @@
     }
 }
 
-.ghost1 {
+.second_ghost {
     overflow: hidden;
+    border-radius: 50%;
     width: 330px;
     height: 330px;
     position: absolute;
@@ -312,13 +313,13 @@
     right: -200px;
     bottom: 84px;
     cursor: pointer;
-    animation-name: header-animation-ghost1;
+    animation-name: header-animation-second_ghost;
     animation-duration: 95s;
     animation-fill-mode: forwards;
 
 }
 
-@keyframes header-animation-ghost1 {
+@keyframes header-animation-second_ghost {
     0%{
         left: -300px;
     }
