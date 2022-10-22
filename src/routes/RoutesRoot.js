@@ -3,6 +3,7 @@ import {Route, Routes} from 'react-router-dom'
 import MainPage from "../pages/MainPage";
 import CardPage from "../pages/CardPage";
 import UserPage from "../pages/UserPage";
+import RedactPage from "../pages/RedactPage";
 
 
 export const PATH = {
