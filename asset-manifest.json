@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/halloween-app/static/js/main.a312c48f.js",
+    "index.html": "/halloween-app/index.html",
+    "main.a312c48f.js.map": "/halloween-app/static/js/main.a312c48f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a312c48f.js"
+  ]
+}
