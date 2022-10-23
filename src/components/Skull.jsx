@@ -1,19 +1,16 @@
 import React from 'react';
 import s from "../styles/MainPage.module.css";
-import useSound from "use-sound";
-import sound from  '../assets/halloween_is_coming_.mp3'
+import {Link} from "react-router-dom";
 
-const Spider = () => {
-    const [play, { stop }] = useSound(sound);
+const Skull = () => {
     return (
-        <div>
+        <Link to={'/scare'}>
                 <div
                     className={s.skull }
-                     onClick={()=>play()}
-                     onDoubleClick={() => stop()}
+
                 />
-        </div>
+        </Link>
     );
 };
 
-export default Spider;
+export default Skull;

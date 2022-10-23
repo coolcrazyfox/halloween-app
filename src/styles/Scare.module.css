@@ -1,0 +1,107 @@
+.main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*border: 1px solid red;*/
+}
+.main{
+    display: flex;
+    /*border: 1px solid red;*/
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    height: 0;
+    background: url("../assets/ZEB.gif") no-repeat center fixed;
+    background-size: cover;
+    animation-name: header-animation-scare;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes header-animation-scare {
+    0%, 20%, 40%, 60%, 80%, 90%,  100%{
+        height: 0;
+
+    }
+     50%, 70%, 85%, 95%
+    {
+        height: 99vh;
+        min-width: 1600px;
+
+    }
+
+}
+.text{
+    text-align: center;
+    color: black;
+    font-size: 0rem;
+    animation-name: header-animation-text;
+    animation-duration: 12s;
+    animation-fill-mode: forwards;
+}
+@keyframes header-animation-text {
+    0%{
+        opacity: 0;
+        font-size: 10rem;
+    }
+     70% {
+        color: white;
+        font-size: 10rem;
+    }
+    100%{
+        color: black;
+        font-size: 0rem;
+    }
+}
+.second_text {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid red;*/
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+
+    animation-name: header-animation-second_text;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+}
+.second_text h2{
+    margin-bottom: 1px;
+}
+@keyframes header-animation-second_text {
+    0%, 80%{
+        opacity: 0;
+        font-size: 4rem;
+    }
+    70%,100%
+    {
+        color: white;
+        font-size: 4rem;
+    }
+}
+.btn{
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    /*display: block;*/
+    color: white;
+    height: 30px;
+    font-size: 1rem;
+    /*background: darkred;*/
+    animation-name: header-animation-button;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes header-animation-button {
+    0%{
+        color: black;
+        background: black;
+    }
+    70%,100%
+    {
+        color: white;
+        background: darkred;
+    }
+}
