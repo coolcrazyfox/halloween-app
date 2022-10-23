@@ -7,6 +7,7 @@ import Ghost from "../components/Ghost";
 import SecondGhost from "../components/SecondGhost";
 import Coffin from "../components/Coffin";
 import HalloweenTitle from "../components/HalloweenTitle";
+import Skull from "../components/Skull";
 
 
 const MainPage = () => {
@@ -22,6 +23,7 @@ const MainPage = () => {
                 <Ghost/>
                 <SecondGhost/>
                 <Coffin/>
+                <Skull/>
             </div>
 
         </div>

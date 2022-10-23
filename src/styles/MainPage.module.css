@@ -147,6 +147,47 @@
     }
 }
 
+.skull {
+    overflow: hidden;
+    border-radius: 25px;
+    width: 200px;/*95*/
+    height: 200px;/*200*/
+    position: absolute;
+    background-image: url('../assets/Skullt.png');
+    background-position-y: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 80px;
+    bottom: 45px;
+    cursor: pointer;
+    animation-name: header-animation-skull;
+    animation-duration: 17s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes header-animation-skull {
+    0%{
+        right: -100%;
+    }
+    50%{
+        right: -446px;
+        transform: rotate(-10deg);
+
+    }
+
+    70%{
+        right: -200px;
+        transform: rotate(360deg);
+
+    }
+
+    100% {
+        right: 80px;
+        transform: rotate(0deg);
+    }
+}
+
 .pumpkin {
     overflow: hidden;
     border-radius: 50%;
@@ -223,6 +264,7 @@
     }
     100% {
         left: 20px;
+        bottom: 20px;
     }
 }
 
