@@ -206,12 +206,7 @@
     animation-fill-mode: forwards;
 }
 
-/*.pumpkin-animation {*/
-/*    animation-name: header-animation-pumpkin;*/
-/*    animation-duration: 75s;*/
-/*    animation-fill-mode: forwards;*/
 
-/*}*/
 
 @keyframes header-animation-pumpkin {
     0%{
@@ -220,7 +215,6 @@
     }
     10%{
         left: -60px;
-        /*transform: rotate(10deg);*/
     }
     20%{
         left: 0px;
@@ -287,12 +281,6 @@
 
 }
 
-/*.ghost-animation {*/
-/*    animation-name: header-animation-ghost;*/
-/*    animation-duration: 85s;*/
-/*    animation-fill-mode: forwards;*/
-
-/*}*/
 
 @keyframes header-animation-ghost {
     0%{
@@ -450,14 +438,14 @@
     overflow: hidden;
     /*border-radius: 50%;*/
     width: 330px;
-    height: 330px;
+    height: 530px;
     position: absolute;
     background-image: url('../assets/coffin-halloween-costume.png');
     background-position-y: 70%;
     background-size: contain;
     background-repeat: no-repeat;
-    right: 0px;
-    bottom: 14px;
+    right: 0;
+    bottom: 54px;
     cursor: pointer;
     animation-name: header-animation-coffin;
     animation-duration: 105s;
@@ -468,27 +456,27 @@
         right: -350px;
     }
     10%{
-        right: -150px;
+        right: -350px;
        transform: rotate(-30deg);
     }
     15%{
-        bottom: 25px;
+        bottom: 65px;
         transform: rotate(-25deg);
     }
     20%{
-        bottom: 60px;
+        bottom: 100px;
         transform: rotate(-10deg);
     }
     22%{
-        bottom:20px;
+        bottom:200px;
         transform: rotate(-20deg);
     }
     25%{
-        right: -240px;
+        right: -350px;
         transform: rotate(0deg);
     }
     30%{
-        bottom:10px;
+        bottom:100px;
         transform: rotate(-30deg);
     }
     35%{
@@ -496,7 +484,7 @@
         transform: rotate(-20deg);
     }
     40%{
-        bottom:60px;
+        bottom:260px;
         transform: rotate(-40deg);
     }
     45%{
@@ -504,7 +492,7 @@
         transform: rotate(-20deg);
     }
     50%{
-        bottom:20px;
+        bottom:220px;
         transform: rotate(-10deg);
     }
     55%{
@@ -530,7 +518,7 @@
     }
 
     90% {
-        bottom: 10px;
+        bottom: 100px;
         transform: rotate(-20deg);
     }
     100% {
